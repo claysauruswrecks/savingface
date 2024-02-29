@@ -20,3 +20,9 @@ classifiers = [
 [project.urls]
 Homepage = "https://github.com/claysauruswrecks/savingface"
 Issues = "https://github.com/claysauruswrecks/savingface/issues"
+
+[tool.hatch.build.targets.wheel]
+src-dir = "src"  # Specify the source directory for your package
+
+[tool.hatch.build.targets.sdist]
+src-dir = "src"  # Specify the source directory for your package

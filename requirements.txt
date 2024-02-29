@@ -1,0 +1,14 @@
+# dev
+isort
+black
+pylama
+pydocstyle
+pytest-cov
+mccabe
+flaky
+
+# prod
+boto3
+transformers
+huggingface_hub
+torch
